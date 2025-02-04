@@ -72,7 +72,7 @@ export default function RootLayout({
           </div>
         </footer>
       </body>
-      <GoogleTagManager gtmId="G-G5TVQ718JN" />
+      <GoogleTagManager gtmId="GTM-52935D5L" />
     </html>
   );
 }
