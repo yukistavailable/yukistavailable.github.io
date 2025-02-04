@@ -3,7 +3,7 @@ import { Geist, Geist_Mono, Noto_Serif, PT_Serif } from "next/font/google";
 import "./globals.css";
 import { aboutMe } from "@/data/aboutme";
 import { customMetadata } from "@/data/title-description";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -72,7 +72,7 @@ export default function RootLayout({
           </div>
         </footer>
       </body>
-      <GoogleAnalytics gaId="G-G5TVQ718JN" />
+      <GoogleTagManager gtmId="G-G5TVQ718JN" />
     </html>
   );
 }
