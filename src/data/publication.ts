@@ -26,6 +26,7 @@ export const publicationData: Publication[] = [
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     // award: "🏆 Best Paper Award",
     // if you have an image in public/images, you can use it like this:
+    paperUrl: "https://yukistavailable.github.io/fontcraft.github.io/",
     imageUrl:
       "https://yukistavailable.github.io/hosting/fontcraft_small_compressed.png",
   },
