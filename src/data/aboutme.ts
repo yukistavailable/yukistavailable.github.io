@@ -19,11 +19,11 @@ export interface AboutMe {
 
 export const aboutMe: AboutMe = {
   name: "Yuki Tatsukawa",
-  title: "MS Student",
-  institution: "The University of tokyo",
+  title: "AI/CG Researcher",
+  institution: "",
   // Note that links work in the description
   description:
-    "I'm a second-year master's student at the University of Tokyo. I belong to <a href='https://www-ui.is.s.u-tokyo.ac.jp/en/'> UI Research Group </a>.  I'm interested in machine learning, computer graphics, and HCI. I'm currently working on a UI system enabling non-expert users to design and create new fonts by themselves. I'm supervised by Prof. Takeo Igarashi.",
+    "I'm a researcher at a Japanese video game development company. <br> I earned my master's degree in computer science under Takeo Igarashi at the University of Tokyo, where I was a member of <a href='https://www-ui.is.s.u-tokyo.ac.jp/en/'>UI Research Group </a>. My research interests include machine learning, computer graphics, and human-computer interaction (HCI).",
   email: "yukitatsu0817[at]gmail.com",
   imageUrl: "https://yukistavailable.github.io/hosting/ocean_small.png",
   googleScholarUrl:

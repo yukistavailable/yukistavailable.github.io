@@ -15,11 +15,23 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "2025",
+    conference: "SIGGRAPH",
+    title:
+      "GarmentImage: Raster Encoding of Garment Sewing Patterns with Diverse Topologies",
+    authors:
+      "Yuki Tatsukawa, Anran Qi, I-Chao Shen, Takeo Igarashi",
+    tldr: "New representation for sewing patterns.",
+    paperUrl: "https://yukistavailable.github.io/garmentimage.github.io/",
+    imageUrl:
+      "https://yukistavailable.github.io/hosting/garmentimage_teaser.png",
+  },
+  {
+    year: "2025",
     conference: "CHI",
     title:
       "FontCraft: Multimodal Font Design Using Interactive Bayesian Optimization",
     authors:
-      "Yuki Tatsukawa, I-Chao Shen, Mustafa Doga Dogan, Anran Qi, Yuki Koyama, Takeo Igarashi, Ariel Shamir",
+      "Yuki Tatsukawa, I-Chao Shen, Mustafa Doga Dogan, Anran Qi, Yuki Koyama, Ariel Shamir, Takeo Igarashi",
     tldr: "UI system enabling non-expert users to design fonts.",
     // paperUrl: "https://arxiv.org/abs/2409.15476",
     // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
